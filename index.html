@@ -1,34 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Treact clone</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+  </head>
+  <body>
     <section id="landing">
-        <nav>
-            <div class="row row__padding">
-                <div class="nav__container">
-                    <a class="nav__links nav__link--hover" href="#">
-                        <img class="nav__logo" src="./assets/logo.svg" alt="logo">
-                        <span class="nav__logo--title">Treact</span>
-                    </a>
-                    
-                    <ul class="nav__links">
-                      <li><a class="nav__link" href="#">About</a></li>   
-                      <li><a class="nav__link" href="#">Blog</a></li>   
-                      <li><a class="nav__link" href="#">Pricing</a></li>   
-                      <li><a class="nav__link" href="#">Contant Us</a></li>   
-                      <li><a class="nav__link nav__link--login" href="#">Login</a></li>   
-                      <li><a class="nav__link nav__link--signup" href="#">Sign Up</a></li>   
-                    </ul>
-                </div>
+      <nav>
+        <div class="row row__padding">
+          <div class="nav__container">
+            <a class="nav__links nav__link--hover" href="#">
+              <img class="nav__logo" src="./assets/logo.svg" alt="logo" />
+              <span class="nav__logo--title">Treact</span>
+            </a>
+
+            <ul class="nav__links">
+              <li><a class="nav__link" href="#">About</a></li>
+              <li><a class="nav__link" href="#">Blog</a></li>
+              <li><a class="nav__link" href="#">Pricing</a></li>
+              <li><a class="nav__link" href="#">Contant Us</a></li>
+              <li><a class="nav__link nav__link--login" href="#">Login</a></li>
+              <li>
+                <a class="nav__link nav__link--signup" href="#">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header>
+        <div class="row">
+            <div class="container container__header">
+          <div class="landing-page__left">
+            <h1>
+              Beautiful React Templates <span class="purple">for you.</span>
+            </h1>
+            <p class="landing-page__left--para">
+              Our templates are easy to setup, understand and customize. Fully
+              modular components with a variety of pages and components.
+            </p>
+            <div class="landing-page__left--input">
+                <input type="text" placeholder="Your E-mail Address">
+                <button class="landing-page__left--button">Get started</button>
             </div>
-        </nav>
+            <div class="landing-page__left--customers">
+                <p>OUR TRUSTED CUSTOMERS</p>
+                <img class="landing-page__left--customers-img" src="./assets/customers-logo-strip.png" alt="">
+            </div>
+          </div>
+          <figure class="landing-page__right">
+            <img class="landing-page__right--img" src="./assets/design-illustration.svg" alt="" />
+          </figure>
+          </div>
+        </div>
+      </header>
     </section>
-</body>
+  </body>
 </html>
