@@ -23,6 +23,7 @@ h2 {
     font-size: 48px;
     color: #243E63;
     font-weight: 900;
+    margin: 16px 0 0;
 }
 
 p {
@@ -36,6 +37,7 @@ p {
     margin: 16px 0 0;
     font-weight: 500;
     color: #A0AEC0;
+    line-height: 1.5;
 }
 
 
@@ -274,4 +276,32 @@ button:hover {
     color: #7C8BA1 ;
     font-weight: 500;
     margin: 16px 0 0;
+}
+
+/* quality work */
+
+.container__quality {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quality-work__left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quality-work__right {
+    width: 50%;
+}
+
+.quality-work__right--img {
+    max-width: 100%;
+}
+
+.quality-work__left--button {
+    margin: 32px 0 0;
+    width: 100%;
+    max-width: 160px;
 }
