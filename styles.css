@@ -26,6 +26,12 @@ h2 {
     margin: 16px 0 0;
 }
 
+h3 {
+    font-size: 20px;
+    color: #243E63;
+    font-weight: 600;
+}
+
 p {
     font-size: 12px;
     color: #A0AEC0;
@@ -304,4 +310,34 @@ button:hover {
     margin: 32px 0 0;
     width: 100%;
     max-width: 160px;
+}
+
+/* steps */
+
+.step {
+    display: flex;
+    margin: 32px 0 0;
+}
+
+.step__number {
+    color: #CBD5E0;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.step__description {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 24px ;
+    max-width: 50%;
+}
+
+.step__description--para {
+    font-size: 14px;
+    color: #718096;
+    font-weight: 500;
+    margin: 12px 0 0;
+}
+.steps__container {
+    padding-left: 32px;
 }
