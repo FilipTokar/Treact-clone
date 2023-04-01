@@ -254,8 +254,18 @@ button:hover {
 
 .menu__list {
     padding: 12px 0;
-    font-size: 18px;
+    font-size: 18px
+}
 
+.menu__link {
+    color: #1A202C;
+    transition: all 300ms ease;
+}
+
+.menu__link:hover {
+    color: #6415FF;
+    text-decoration: underline;
+    text-decoration-color:#6415FF;
 }
 
 .btn__menu--close {
@@ -330,6 +340,8 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    text-align: center;
 }
 
 .services {
@@ -742,5 +754,124 @@ button:hover {
     }
     .btn__menu {
         display: block;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .landing-page__left {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size:36px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .description--para {
+        text-align: center;
+    }
+
+    .description-para-left {
+        text-align: left;
+    }
+
+    .service {
+        width: calc(100%/2);
+    }
+
+    .plan {
+       max-width: 380px;
+       width: 100%; 
+    }
+
+    .values__container {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:768px) {
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container__quality {
+        flex-direction: column-reverse;
+    }
+
+    .container__quality-steps {
+        flex-direction: column;
+    }
+
+    .container__quality-testimonials {
+        flex-direction: column;
+    }
+
+   
+
+    .quality-work__left  {
+        width: 100%;   
+    }
+
+    .quality-work__right  {
+        width: 100%;
+    }
+
+        
+    
+}
+ 
+@media (max-width:420px) {
+    .landing-page__left--button {
+        font-size: 12px;
+        position: absolute;
+        right: 12px;
+        top: 80px;
+
+    }
+
+    .landing-page__left--input  {
+        display: flex;
+    }
+
+    .service {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .link {
+        margin: 0 16px 16px;
+    }
+
+    .footer__bar {
+        flex-direction: column;
+    }
+
+    .footer__bar-copyright {
+        margin-top: 12px;
+    }
+
+    .footer__bar--icons {
+        margin-top: 12px;
+    }
+
+    .menu__backdrop {
+        height: 100vh;
+    }
+
+    .service__description {
+        list-style: 1;
     }
 }
